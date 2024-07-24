@@ -1,0 +1,65 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Firebase Meetup</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="app">
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/battle-die-repeat-app.appspot.com/o/battle_die_repeat_feature_graphic.png?alt=media&token=b5634817-9717-4482-808e-c950c2f5cc74"
+    />
+
+    <section id="event-details-container">
+      <h2>Crafting Demo</h2>
+
+      <p>
+        Click start to crafting with the AI-powered BDR item crafting engine.
+      </p>
+
+      <button id="startRsvp">RSVP</button>
+
+      <p>Version: Alpha 0.0.1</p>
+    </section>
+
+    <hr />
+
+    <section id="firebaseui-auth-container"></section>
+
+    <section id="description-container">
+      <h2>What's Battle Die Repeat?</h2>
+      <p>
+        BDR is an artificial intelligence powered role-playing game pushing the
+        boundaries of imagination and paving the path to the future of gaming.
+      </p>
+    </section>
+
+    <section id="guestbook-container">
+      <h2>Generate</h2>
+
+      <form id="leave-message">
+        <label>Describe your item: </label>
+        <input type="text" id="message" />
+        <button type="submit">
+          <i class="material-icons">send</i>
+          <span>SEND</span>
+        </button>
+      </form>
+
+      <section id="guestbook"></section>
+    </section>
+  </div>
+</body>
